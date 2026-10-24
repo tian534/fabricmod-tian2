@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "fallprotect",
+  "version": "1.0.0",
+  "name": "Fall Protect",
+  "description": "指令控制下坠保护，可设置触发Y，触发一次自动关闭，支持status查看状态",
+  "authors": [
+    "you"
+  ],
+  "contact": {
+    "repo": ""
+  },
+  "license": "MIT",
+  "icon": "assets/fallprotect/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.client.TemplateModClient"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabric-api": ">=0.102.1+1.21.1"
+  }
+}
